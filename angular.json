@@ -28,9 +28,20 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/ionicons/dist/css/ionicons.css",
+              "src/_variables.less",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/admin-lte/plugins/jQueryUI/jquery-ui.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/admin-lte/dist/js/adminlte.js",
+              "src/assets/js/adminLTEOptions.js",
+              "src/assets/js/scripts.js"
+            ]
           },
           "configurations": {
             "production": {
